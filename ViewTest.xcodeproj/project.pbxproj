@@ -19,6 +19,7 @@
 		03A2CA0219C11282001FDE4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A2C9EA19C11282001FDE4C /* UIKit.framework */; };
 		03A2CA0A19C11282001FDE4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A2CA0819C11282001FDE4C /* InfoPlist.strings */; };
 		03A2CA0C19C11282001FDE4C /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A2CA0B19C11282001FDE4C /* ViewTestTests.m */; };
+		03A2CA1719C1131E001FDE4C /* SimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A2CA1619C1131E001FDE4C /* SimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		03A2CA0719C11282001FDE4C /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		03A2CA0919C11282001FDE4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03A2CA0B19C11282001FDE4C /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		03A2CA1519C1131E001FDE4C /* SimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleView.h; sourceTree = "<group>"; };
+		03A2CA1619C1131E001FDE4C /* SimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				03A2C9F519C11282001FDE4C /* JPAppDelegate.h */,
 				03A2C9F619C11282001FDE4C /* JPAppDelegate.m */,
+				03A2CA1519C1131E001FDE4C /* SimpleView.h */,
+				03A2CA1619C1131E001FDE4C /* SimpleView.m */,
 				03A2C9F819C11282001FDE4C /* Images.xcassets */,
 				03A2C9ED19C11282001FDE4C /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				03A2C9F719C11282001FDE4C /* JPAppDelegate.m in Sources */,
 				03A2C9F319C11282001FDE4C /* main.m in Sources */,
+				03A2CA1719C1131E001FDE4C /* SimpleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

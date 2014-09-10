@@ -7,6 +7,7 @@
 //
 
 #import "JPAppDelegate.h"
+#import "SimpleView.h"
 
 @implementation JPAppDelegate
 
@@ -14,7 +15,24 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Create view.
+    CGRect frame1 = CGRectMake(50,50,100,100);
+    SimpleView* view1 = [[SimpleView alloc] initWithFrame:frame1];
+    view1.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:view1];
+    
+    // Create another view.
+    CGRect frame2 = CGRectMake(20,20,50,50);
+    SimpleView* view2 = [[SimpleView alloc] initWithFrame:frame2];
+    view2.backgroundColor = [UIColor blueColor];
+    [self.window addSubview:view2];
+    [view1 addSubview:view2];
+    
+    
+    
+    
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
